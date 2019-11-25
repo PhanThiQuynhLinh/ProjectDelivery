@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" type="text/css" href="css/dialog.css">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="js/dialog.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Đăng ký thành viên</title>
+</head>
+
+<body>
+  <div class="container-fluid" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),  url('images/8.jpg');
+        background-position: center;
+        background-size: cover;
+		background-repeat: no-repeat;
+         height:300px">
+    <p style="text-align:center; color:white; font-weight: bold; font-size: 30px; padding-top: 130px; margin:0"> ĐĂNG KÝ THÀNH VIÊN</p>
+    <hr style="width: 200px; margin:auto; background-color: orange; margin-top: 20px" class="mt-2">
+  </div>
+  <div class="content-tk">
+    <div class="container">
+      <div class="thanhvien">
+        <h1>Bạn đã sẵn sàng trở thành Thành Viên?</h1>
+        <form action="">
+          <h2>Thông tin cá nhân</h2>
+          <div class="thongtincanhan">
+            <!-- <p class="thongtincanhan">ThÃ´ng tin cÃ¡ nhÃ¢n</p> -->
+            <div class="grid name">
+              <p class="add-info">Tên: </p>
+              <input class="address" type="text" name="tenKhachHang" placeholder="Nhập Tên.." required="required">
+            </div>
+            <div class="grid email">
+              <p class="add-info">Email: </p>
+              <input class="address" type="email" name="email" placeholder="Nhập email.." required="required">
+              <p style="color: red;">
+                Thông báo
+              </p>
+            </div>
+            <div class="grid phone">
+              <p class="add-info">Số Điện Thoại: </p>
+              <input class="address" type="text" name="soDienThoai" placeholder="Nhập Số Điện Thoại..." required="required">
+            </div>
+
+            <div class="grid sex">
+              <p class="add-info">Giới Tính: </p>
+              <div class="gioiTinh">
+                <input class="address" type="radio" name="gioiTinh" style="width: 15px;" value="0"> Nam
+                <input class="address" type="radio" name="gioiTinh" style="width: 15px;" value="1"> Nữ
+              </div>
+              <br>
+            </div>
+            <div class="grid namect">
+              <p class="add-info">Mật Khẩu: </p>
+              <input class="address" type="password" name="matKhau" placeholder="Nhập Mật Khẩu.." required="required">
+            </div>
+            <div class="grid namect">
+              <p class="add-info">Ngày Sinh: </p>
+              <input class="address" type="date" name="ngaySinh" required="required">
+            </div>
+            <div class="grid namect">
+              <p class="add-info">Nhập Lại Mật Khẩu: </p>
+              <input class="address" type="password" name="" placeholder="Nhập Mật Khẩu.." required="required">
+            </div>
+
+          </div>
+
+
+          <div class="ttdiachi">
+            <p class="ttdiachi">Thông tin địa chỉ</p>
+            <div class="grid phone">
+              <p class="add-info">Địa Chỉ: </p>
+              <input class="address" type="text" name="diaChi" required="required" placeholder="Nhập Địa Chỉ...">
+            </div>
+            <div class="grid phone">
+              <p class="add-info">Quận: </p>
+             <select name="" id="" class="form-control">
+               <option value="1">Liên Chiểu</option>
+             </select>
+            </div>
+          </div>
+          <center>
+            <div class="hoantat">
+              <input type="submit" name="submit" value="Hoàn Tất" class="button">
+            </div>
+          </center>
+          </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer bg-dark w-100">
+    <div class="container mt-5 pt-5 pb-5">
+      <a href="#">Giới thiệu một nhà hàng</a>
+      <a href="#">Đăng ký nhà hàng</a>
+      <a href="#">Tuyển dụng</a>
+      <a href="#">Điều khoản sử dụng</a>
+      <a href="#">Cam kết bảo mật</a>
+      <a href="#">Chính sách giải quyết khiếu nại</a>
+      <a href="#">Tin tức</a>
+      <p style="text-align:center">
+        <a href="#">© 2019 Nhom Java 12</a>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

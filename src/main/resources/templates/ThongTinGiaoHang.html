@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html html="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/dialog.css">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="js/dialog.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thông tin giao hàng</title>
+</head>
+
+<body>
+  <div class="container-fluid" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),  url('images/8.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+         height:300px">
+    <p style="text-align:center; color:white; font-weight: bold; font-size: 30px; padding-top: 130px; margin: 0"> THÔNG TIN GIAO HÀNG</p>
+    <hr style="width: 200px; margin:auto; background-color: orange" class="mt-2">
+  </div>
+  <div class="main">
+    <div class="container">
+      <div class="content-tk" style="background-color: white;">
+        <div class="thanhtoan">
+          <form action="">
+            <p style="color: red; text-align: center;">
+              Thông báo
+            </p>
+            <h1>Bạn đã sẵn sàng để thưởng thức</h1>
+            <h2>Thông tin giao hàng</h2>
+            <div class="thongtingiaohang">
+              <div class="grid addressinfo">
+                <p class="add-info">Địa chỉ:
+                  <span style="color: red">*</span>
+                </p>
+                <input class="address" type="text" name="diaChi" placeholder="Nhập địa chỉ">
+              </div>
+              <div class="grid district">
+                <p class="add-info">Quận:
+                  <span style="color: red">*</span>
+                </p>
+                <select class="sl district">
+                  <option class="" value="MKV001" name="maKhuVuc">Cẩm Lệ</option>
+                  <option class="" value="MKV002" name="maKhuVuc">Hòa Vang</option>
+                  <option class="" value="MKV003" name="maKhuVuc">Hải Châu</option>
+                  <option class="" value="MKV004" name="maKhuVuc">Liên Chiểu</option>
+                  <option class="" value="MKV005" name="maKhuVuc">Ngũ Hành Sơn</option>
+                  <option class="" value="MKV006" name="maKhuVuc">Sơn Trà</option>
+                  <option class="" value="MKV007" name="maKhuVuc">Thanh Khê</option>
+                </select>
+              </div>
+
+              <div class="grid ward">
+                <p class="add-info">Phường : </p>
+                <input class="address" type="" name="" placeholder="Nhập Phường" required="required">
+              </div>
+            </div>
+            <div class="thongtincanhan">
+              <p class="thongtincanhan">Thông tin cá nhân</p>
+              <div class="grid name">
+                <p class="add-info">Tên:
+                  <span style="color: red">*</span>
+                </p>
+                <input class="address" type="text" name="tenNguoiNhan" placeholder="Nhập tên.." required="required">
+              </div>
+              <div class="grid email">
+                <p class="add-info">Email: </p>
+                <input class="address" type="email" name="email" placeholder="Nhập email" required="required">
+              </div>
+              <div class="grid phone">
+                <p class="add-info">Số điện thoại:
+                  <span style="color: red">*</span>
+                </p>
+                <input class="address" type="text" name="soDienThoai" placeholder="Nhập số điện thoại.." required="required">
+              </div>
+
+            </div>
+
+        </div>
+        <div class="grid where">
+          <p class="ghichu">Ghi chú</p>
+          <textarea class="ghichu"></textarea>
+          <div class="checkboxFive">
+
+          </div>
+        </div>
+      </div>
+
+      <center>
+
+        <div class="hoantat">
+          <!-- <a href="./thong-tin-giao-hang.do" class="button" style="margin-top: 50px;">Hoàn Tất</a> -->
+          <input type="submit" class="button" value="Hòan Tất">
+        </div>
+      </center>
+    </form>
+
+    </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <div class="footer ">
+    <div class="container">
+      <a href="#">Giới thiệu một nhà hàng</a>
+      <a href="#">Đăng ký nhà hàng</a>
+      <a href="#">Tuyển dụng</a>
+      <a href="#">Điều khoản sử dụng</a>
+      <a href="#">Cam kết bảo mật</a>
+      <a href="#">Chính sách giải quyết khiếu nại</a>
+      <a href="#">Tin tức</a>
+      <p style="text-align:center">
+        <a href="#">© 2019 Nhom Java 12</a>
+      </p>
+    </div>
+  </div>
+  <script>
+    function myFunction() {
+      alert("ChÃºc má»«ng báº¡n ÄÃ£ Äáº·t hÃ ng thÃ nh cÃ´ng!");
+    }
+  </script>
+</body>
+
+</html>

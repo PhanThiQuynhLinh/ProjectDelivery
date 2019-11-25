@@ -1,0 +1,226 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.atom-filter a.filter-label-selected,
+.atom-filter a.kitchenfilter_selected {
+    background-color: #ff8000;
+    color: #fff;
+}
+
+.atom-filter>a {
+
+    height: 40px;
+    line-height: 37px;
+    white-space: nowrap;
+    margin-bottom: 4px;
+    box-shadow: 0 2px 2px #cfcac4;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 16px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+a {
+    cursor: pointer;
+    outline: 0;
+    text-decoration: none;
+}
+
+.atom-filter a {
+    color: #666;
+}
+
+.atom-filter .filter-label:before {
+    font-family: fontello;
+    content: attr(data-icon);
+    font-size: 24px;
+    margin-right: 14px;
+    top: 2px;
+    position: relative;
+}
+
+.restaurant {
+    min-height: 118px;
+    padding: 16px;
+    margin: 4px 0;
+}
+
+.restaurant {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.restaurant .logowrapper {
+    width: 33%;
+    padding: 8px 16px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.restaurant .logo-n {
+    max-width: 155px;
+    text-align: left;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+
+.restaurant .logo-n img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+a {
+    cursor: pointer;
+    outline: 0;
+    color: #1574f5;
+    text-decoration: none;
+}
+
+.restaurant .detailswrapper {
+    width: 67%;
+    font-size: 15px;
+    padding-bottom: 0;
+}
+
+.restaurant .detailswrapper {
+    float: left;
+
+    line-height: 1.7;
+
+    padding: 8px 4px;
+}
+
+.restaurant .detailswrapper .details {
+    font-size: 13px;
+    line-height: 2em;
+}
+
+.restaurant .restaurantname a {
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    margin: 0 0 8px;
+    font-weight: 600;
+    text-align: left;
+    color: #0a3847;
+}
+
+a {
+    cursor: pointer;
+    outline: 0;
+
+    text-decoration: none;
+}
+
+.restaurant .bottomwrapper {
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    min-width: 210px;
+}
+
+.restaurant .detailswrapper .details .delivery {
+    line-height: 18px;
+}
+
+.restaurant .detailswrapper .details .delivery div {
+    float: left;
+    margin-right: 12px;
+}
+
+.restaurants .closed {
+    color: red;
+}
+
+.grid:after {
+    clear: both;
+}
+
+.grid:after,
+.grid:before {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+
+.atom-accordion-down section.open {
+    max-height: 2500px;
+    visibility: visible;
+    transition: max-height .9s ease;
+    transform: translateZ(0);
+}
+
+.atom-accordion-down section {
+    display: block;
+    overflow: hidden;
+}
+
+.atom-accordion-down section {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .45s ease;
+    transform: translateZ(0);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+.footer a{
+color: orange;
+}
+.the{
+position: relative;
+color: #fff !important;
+margin: 0;
+padding: 0 0 10px;
+font-size: 27px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+}
+.pagination a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+.pagination a.active {
+background-color: orange;
+color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.footer a{
+color:orange;
+}

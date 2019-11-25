@@ -1,0 +1,224 @@
+    .box-ud {
+      width: 100%;
+      float: left;
+      display: inline-flex;
+      margin-top: 70px;
+    }
+
+    .box-ud .ud {
+      width: 100%;
+      border: 1px solid #f9f5f1;
+      background: #fff;
+      width: 33%;
+      margin-left: 5%;
+      margin-right: 5%;
+      float: left;
+      position: relative;
+      min-height: 260px;
+      padding: 16px;
+      box-shadow: 2px 2px 10px 0 hsla(0, 0%, 50%, .4);
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    span#tg {
+      color: #ff8000;
+    }
+
+    .box-ud .ud h2 {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .uudai {
+      background: #f9f5f1;
+      padding-bottom: 70px;
+    }
+
+    i.fa.fa-check {
+      color: #fff;
+      line-height: 90px;
+      font-size: 45px;
+    }
+
+    i.fa.fa-bullhorn {
+      color: #fff;
+      line-height: 90px;
+      font-size: 45px;
+    }
+
+    i.fa.fa-handshake-o {
+      color: #fff;
+      line-height: 90px;
+      font-size: 45px;
+    }
+
+    span.listbox-icon {
+      width: 90px;
+      height: 90px;
+      display: inline-block;
+      border-radius: 50%;
+      background: #ff8000;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: -45px;
+      box-shadow: 2px 2px 10px 0 hsla(0, 0%, 50%, .4);
+    }
+
+    .box-ud .ud ul li {
+      list-style-image: url(../images/list.png);
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    h1 {
+      display: block;
+      font-size: 1.5em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
+
+    span#tg {
+      color: #ff8000;
+    }
+
+    .dropbtn {
+      background-color: transparent;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: orange;
+      color: white
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      padding-top: 200px;
+      /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+
+    .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0;
+      border: 1px solid #888;
+      width: 450px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+    }
+
+    /* Add Animation */
+
+    @-webkit-keyframes animatetop {
+      from {
+        top: -300px;
+        opacity: 0
+      }
+      to {
+        top: 0;
+        opacity: 1
+      }
+    }
+
+    @keyframes animatetop {
+      from {
+        top: -300px;
+        opacity: 0
+      }
+      to {
+        top: 0;
+        opacity: 1
+      }
+    }
+
+    /* The Close Button */
+
+    .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover, .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .modal-header {
+      padding: 2px 16px;
+      background-color: orange;
+      color: white;
+    }
+
+    .modal-body {
+      padding: 2px 16px;
+    }
+
+    .modal-footer {
+      padding: 2px 16px;
+      background-color: orange;
+      color: white;
+    }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Delivery Food</title>
+  <link rel="stylesheet" th:href="@{css/login1.css}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div id="form-login">
+    <div id="logo-login">
+      <img src="/img/logo.png" alt="" style="width: 80px; margin: 0px auto;">
+    </div>
+    
+    <form th:action="@{/login}" th:object = "${khachHang}" method = "POST">
+      <div>
+        <input type="email" th:field = *{email} required placeholder="Email...">
+      </div>
+      <div>
+        <input type="password" th:field = "*{matKhau}" placeholder="Password...">
+        <p style="color: red" class="mess-error"  th:if="${#fields.hasErrors('matKhau')}" th:errors = "*{matKhau}"></p>
+      </div>
+      <div>
+        <input type="submit" value="LOGIN" class="item-button">
+      </div>
+    </form>
+    <div>
+      <input type="button" value="SIGN IN">
+    </div>
+    <div id="forget-pwd">
+      <a th:href="@{/forgetPassword}">Quên mật khẩu</a>
+    </div>
+  </div>
+</body>
+
+</html>

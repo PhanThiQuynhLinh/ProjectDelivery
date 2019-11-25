@@ -1,0 +1,165 @@
+body{
+	margin:0px;
+    font-family: Open Sans,Helvetica,sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.content-tk {
+    background-color: #f9f5f1;
+}
+
+
+header {
+    background: url(../image/backgroud.png) 0 00px/cover no-repeat;
+    height: 530px;
+    text-align: center;
+}
+
+
+select {
+    /* float: left; */
+    height: 39px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #999;
+    padding: 0px 15px;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+
+.title {
+    text-align: center;
+}
+
+.thanhvien h2 {
+    padding: 0;
+    margin-bottom: 14px;
+    line-height: 35px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+.thanhvien{
+    background: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+}
+.grid {
+    width: 50%;
+    float: left;
+}
+.gioiTinh{
+    float: left;
+    padding: 0px;
+}
+input.address {
+    position: relative;
+    width: 90%;
+    z-index: 1;
+    background: none;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 8px 16px;
+    height: 20px;
+}
+
+.thongtincanhan p.thongtincanhan {
+    padding: 0;
+    margin-bottom: 14px;
+    line-height: 35px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    font-weight: 400;
+    float: left;
+    width: 100%;
+}
+.ttdiachi p.ttdiachi {
+    padding: 0;
+    margin-bottom: 14px;
+    line-height: 35px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    font-weight: 400;
+    float: left;
+    width: 100%;
+}
+textarea.ghichu {
+    position: relative;
+    width: 90%;
+    z-index: 1;
+    background: none;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin: 0 auto;
+    height: 200px;
+}
+.hoantat {
+    width: 500px;
+    /*float: right;*/
+    margin-top: 742px;
+}
+.button {
+    
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 5px 59px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button:hover{
+    background-color: black;
+    color: orange;
+}
+/**
+ * Checkbox Five
+ */
+
+
+
+
+.listed {
+    border-radius: 5px;
+    background-color: #f9f5f1;
+    /*padding: 30px 40px 0 40px;*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 12px 5px 8px 5px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #33353b;
+}
+.footer{
+    font-size: 15px;
+    background-color: rgb(49, 49, 51);
+    padding: 50px 100px 50px 150px;
+}
+.footer a{
+    color:orange;
+    padding: 15px 15px 10px 0;
+}

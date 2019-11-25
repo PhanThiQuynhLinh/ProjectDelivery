@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" type="text/css" href="css/dialog.css">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <link rel="stylesheet" th:href="@{/css/forgetPwd.css}">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="js/dialog.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>Quên Mật Khẩu</title>
+</head>
+
+<body>
+  <div class="container-fluid" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),  url('images/8.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+         height:300px">
+    <p style="text-align:center; color:white; font-weight: bold; font-size: 30px; padding-top: 130px; margin: 0">ĐĂNG KÝ MẬT KHẨU</p>
+    <hr style="width: 200px; margin:auto; background-color: orange" class="mt-2">
+  </div>
+  <div class="content-tk">
+    <div class="container">
+      <div class="thanhvien">
+        <div style="text-align: center;">
+          <h1>Vui lòng nhập mật khẩu mới của bạn !!!</h1>
+        </div>
+        <form th:action="@{/registerPassword}" th:object = "${passwordForm}" class="form-sty" method="POST">
+          <label for="password">Mật khẩu mới</label>
+          <input type="password" th:field = "*{newPassword}" placeholder="Password...">
+		  <p th:if = "${#fields.errors('newPassword')}" th:errors = "*{newPassword}"></p>
+		  
+          <label for="password">Xác Nhận Mật khẩu mới</label>
+          <input type="password" th:field = "*{confirmPassword}" placeholder="Confirm Password...">
+          <p th:if = "${#fields.errors('confirmPassword')}" th:errors = "*{confirmPassword}"></p>
+
+          <input type="submit" value="Hoàn tất" style="margin-top: 50px;">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer ">
+    <div class="container">
+      <a href="#">Giới thiệu một nhà hàng</a>
+      <a href="#">Đăng ký nhà hàng</a>
+      <a href="#">Tuyển dụng</a>
+      <a href="#">Điều khoản sử dụng</a>
+      <a href="#">Cam kết bảo mật</a>
+      <a href="#">Chính sách giải quyết khiếu nại</a>
+      <a href="#">Tin tức</a>
+      <p style="text-align:center">
+        <a href="#">© 2019 Nhom Java 12</a>
+      </p>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function () {
+      const email = $("email").val;
+      $("#doPassword").click(function () {
+        $.ajax({
+          // url: "/"
+        }).done(function () {
+          $("doPassword").attr("data-dismiss", "modal");
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

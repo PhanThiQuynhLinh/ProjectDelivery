@@ -1,0 +1,203 @@
+body{
+    font-size: 15px;
+}
+div {
+display: block;
+}
+
+.container {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+.row {
+margin-right: -15px;
+margin-left: -15px;
+}
+.col-sm-12 {
+width: 100%;
+float: left;
+}
+.vu_content .woocommerce.vu_with-animation {
+visibility: visible;
+}
+form {
+display: block;
+margin-top: 0em;
+}
+.woocommerce table.shop_table {
+margin: 0 0 60px 0;
+border-radius: 0;
+border-color: #f1f1f1;
+}
+.woocommerce table.shop_table {
+border: 1px solid rgba(0,0,0,.1);
+
+text-align: left;
+width: 100%;
+border-collapse: separate;
+
+}
+table {
+background-color: transparent;
+}
+tr {
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
+.woocommerce table.shop_table .product-remove {
+width: 20px;
+padding-right: 0;
+}
+.woocommerce table.shop_table th {
+
+color: #343434;
+padding: 15px 20px;
+background-color: #f9f9f9;
+}
+.woocommerce table.shop_table td {
+border-color: #f1f1f1;
+padding: 20px 20px;
+font-size: 15px;
+color: inherit;
+text-align: right;
+line-height: 20px;
+}
+.woocommerce table.shop_table .product-thumbnail {
+width: 120px;
+min-width: 32px;
+}
+
+tbody {
+display: table-row-group;
+vertical-align: middle;
+border-color: inherit;
+}
+.woocommerce table.shop_table td {
+border-top: 1px solid rgba(0,0,0,.1);
+}
+.woocommerce a.remove {
+color: red!important;
+display: block;
+font-size: 15px;
+font-weight: normal;
+text-align: center;
+width: 20px;
+height: 20px;
+line-height: 18px;
+padding: 0;
+border-radius: 50%;
+border: 1px solid #ff0000;
+background-color: #fff;
+}
+a {
+color: #fdb822;
+transition: all 0.45s ease-in-out;
+background-color: transparent;
+text-decoration: none;
+}
+.woocommerce .quantity {
+display: inline-block;
+font-size: 0;
+overflow: hidden;
+vertical-align: middle;
+}
+:after, :before {
+box-sizing: border-box;
+}
+.woocommerce .quantity .screen-reader-text {
+display: none !important;
+}
+.screen-reader-text {
+clip: rect(1px,1px,1px,1px);
+height: 1px;
+overflow: hidden;
+position: absolute!important;
+width: 1px;
+word-wrap: normal!important;
+}
+label {
+max-width: 100%;
+margin-bottom: 5px;
+cursor: default;
+font-family: inherit;
+font-size: 14px;
+font-weight: normal;
+}
+.woocommerce .quantity .vu_qty-button {
+float: left;
+display: block;
+font-size: 14px;
+color: #343434;
+text-align: center;
+width: 37px;
+height: 37px;
+line-height: 36px;
+border: none;
+cursor: pointer;
+border-radius: 0;
+background-color: #f1f1f1;
+transition: all 0.3s ease-in;
+}
+button, select {
+text-transform: none;
+}
+button {
+padding: 1px 6px;
+margin: 0;
+font: inherit;
+font-family: inherit;
+overflow: visible;
+}
+
+
+.woocommerce .quantity .qty {
+float: left;
+display: block;
+font-size: 14px;
+font-weight: normal;
+color: #343434;
+text-align: center;
+width: 50px;
+height: 37px;
+line-height: 35px;
+margin: 0 -1px;
+padding: 0;
+border: 1px solid #f1f1f1;
+background-color: #fff;}
+.form-control {
+font-family: inherit;
+
+box-shadow: none;
+outline: 0;
+
+border-radius: 0px;
+transition: all 0.4s ease-out;
+}
+
+.btn-dathang, .btn-dathang:link, .btn-dathang:visited {
+color: #FFFFFF;
+background-color: orange;
+}
+
+.btn-dathang, .w3-button {
+border: none;
+display: inline-block;
+padding: 8px 30px;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+color: inherit;
+background-color: inherit;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+}
+.right{
+float:right;
+}
+.footer a{
+color:orange;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Danh Sách Nhà Hàng</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <script src="main.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/BS4.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/danhsachnhahang.css">
+</head>
+
+<body>
+
+
+  <div class="header">
+    <div class="container-fluid" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),  url('https://images.unsplash.com/photo-1535567465397-7523840f2ae9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1014&q=80');
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+             height:300px">
+      <h3 class="text-center" style="color:white; font-weight: bold; font-size: 30px; padding-top: 130px">Đặt thức ăn trực tuyến tại
+        <br> Tên Khu Vực
+      </h3>
+      <hr style="height: 2px;width: 200px; margin:auto; background-color: orange" class="mt-2">
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 left pt-4">
+        <h6> Nhà Hàng</h6>
+        <h6>Loại Nhà Hàng</h6>
+
+        <label class="atom-filter">
+          <a href="" class="filter-label filter-reset kitchenfilter_selected">
+            <i class="fas fa-utensils"></i> Chọn Tất Cả</span>
+          </a>
+          <a href="" class="filter-label subcatlink text-decoration-none">
+           Tên Nhà Hàng
+          </a>
+        </label>
+
+
+        <a class="text-link showhide-content-link open" data-toggle="HÆ¡n ná»¯a " id="hien">
+          </i>
+        </a>
+      </div>
+
+      <div class="col-md-9 ">
+          <div class="restaurant grid pt-4 pb-4">
+            <div class="logowrapper grid-07">
+              <div class="logo-n">
+                <a href="#" class="img-link">
+                  <img class="restlogo lazy-loaded" src="//static.vietnammm.com/images/restaurants/vn/NQ75737/logo_465x320.png" data-original="//static.vietnammm.com/images/restaurants/vn/NQ75737/logo_465x320.png"
+                    border="0" alt="KFC - KFC - Ngon TrÃªn Tá»«ng NgÃ³n Tay">
+                </a>
+              </div>
+            </div>
+            <div class="detailswrapper grid-13">
+              <h2 class="restaurantname">
+                <a href="" class = "restaurantname">
+                  Tên Nhà Hàng
+                </a>
+              </h2>
+              <div class="review-rating">
+                <div class="review-stars">
+                  <span style="width: 80%;" class="review-stars-range"></span>
+                </div>
+                <span class="rating-total"></span>
+              </div>
+
+              <div class="kitchens">
+                <span></span>
+              </div>
+              <div class="bottomwrapper grid-24 details">
+                <div class="delivery">
+                  <div class="open closed">
+                    <i class="fas fa-bicycle" style="font-size: 15px"></i>
+                    12,000 VNĐ
+                  </div>
+                  <div class="delivery">
+                    <i class="far fa-clock"></i>
+                    12 phút
+                  </div>
+                  <div class="min-order">
+                    <i class="fas fa-database"></i> Tối Thiểu.
+                    150,000 VNĐ
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </logic:iterate>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer bg-dark w-100">
+    <div class="container mt-5 pt-5 pb-5">
+      <a class="pr-4" href="#">Giới thiệu một nhà hàng</a>
+      <a class="pr-4" href="#">Đăng ký nhà hàng</a>
+      <a class="pr-4" href="#">Tuyển dụng</a>
+      <a class="pr-4" href="#">Điều khoản sử dụng</a>
+      <a class="pr-4" href="#">Cam kết bảo mật</a>
+      <a class="pr-4" href="#">Chính sách giải quyết khiếu nại</a>
+      <a class="pr-4" href="#">Tin tức</a>
+      <p class="text-center pt-4">
+        <a href="#">© 2019 Vietnammm.com</a>
+      </p>
+    </div>
+  </div>
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-arrow-up" style="font-size:30px"></i>
+  </button>
+
+
+
+
+  <script>
+    // When the user scrolls down 1500px from the top of the document, show the button
+
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      $("#hien").click(function () {
+        $('#hienMenu').toggleClass('d-none', 1000);
+      });
+    });
+  </script>
+
+
+
+</body>
+
+</html>

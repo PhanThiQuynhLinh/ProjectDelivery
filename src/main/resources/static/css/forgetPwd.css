@@ -1,0 +1,45 @@
+#forget-pwd {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-sty{
+  margin: 0px auto;   
+  width: 350px;
+  background-color: white;
+  padding: 100px 20px 100px 20px;
+  opacity: 85%;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px #5f4e4e;
+
+}
+
+input[type = email], input[type = password]{
+  border: none;
+  width: 87%;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  border-bottom: 2px solid gray;
+}
+
+input[type = submit], input[type = button]{
+  width: 70%;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #e49a1d;
+  color: white;
+  font-size: 15px;
+}
+
+input[type = submit]:hover, input[type = button]:hover{
+  background: #e2dfda;
+  color: #e49a1d;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+}
